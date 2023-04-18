@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>가미</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./images/favicon-16x16.png">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="./css/product.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="header_inner">
+            <h1><a href="index.html"><img src="images/logo_header.png" alt="logo_header"></a></h1>
+            <ul class="gnb">
+                <li><a href="brandstrory.html">가미소개</a></li>
+                <li><a href="product.html">제품</a>
+                    <ul class="gnb_sub">
+                        <li><a href="#tab2">가미 블렌드</a></li>
+                        <li><a href="#tab4">가미 패키지</a></li>
+                        <li><a href="#tab3">기타 용품 / 재료</a></li>
+                    </ul>
+                </li>
+                <li><a href="subscribe.html">월감구독</a></li>
+                <li><a href="news.html">가미소식</a></li>
+            </ul>
+            <ul class="icon">
+                <li class="icon_relative"><a href="#"><img src="images/logo_b_login.png" alt="logo_b_login"
+                            class="b_icon">
+                        <img src="images/logo_gra_login.png" alt="logo_gra_login" class="gra_icon"></a></li>
+                <li class="icon_relative"><a href="#"><img src="images/logo_b_cart.png" alt="logo_b_cart"
+                            class="b_icon">
+                        <img src="images/logo_gra_cart.png" alt="logo_gra_cart" class="gra_icon"></a></li></a></li>
+                <li class="icon_relative"><a href="#"><img src="images/logo_b_search.png" alt="logo_b_search"
+                            class="b_icon">
+                        <img src="images/logo_gra_search.png" alt="logo_gra_search" class="gra_icon"></a></li></a>
+                </li>
+            </ul>
+        </div>
+    </div><!--header-->
+
+
+    <div id="product_main">
+        <h1>가미 스토어</h1>
+        <h2 class="lime"><img src="images/ani_stick1.png" alt="ani_stick1"></h2>
+        <h2 class="berry"><img src="images/ani_stick2.png" alt="ani_stick2"></h2>
+        <h2 class="peach"><img src="images/ani_stick3.png" alt="ani_stick3"></h2>
+        <h2 class="tenger"><img src="images/ani_stick4.png" alt="ani_stick4"></h2>
+    </div>
+
+
+    <div id="product_gnb">
+        <div class="gnb_inner">
+            <ul class="tabs">
+                <li class="fromLeft">
+                    <a href="#tab1">전체</a>
+                </li>
+                <li class="fromLeft"><a href="#tab2">블렌드</a>
+                </li>
+                <li class="fromLeft"><a href="#tab3">기타용품</a>
+                </li>
+                <li class="fromLeft"><a href="#tab4">패키지</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="tab_container">
+        <div id="tab1" class="tab_content">
+            <h4>블렌드</h4>
+            <div class="product_inner">
+                <ul class="inner_wrap">
+                    <li>
+                        <h6 class="item front"><a href="#"><img src="images/box1.png" alt="box1"></a></h6>
+                        <h6 class="item back"><a href="#"><img src="images/stick1.png" alt="stick1"></a></h6>
+                        <h2><a href="#">벚꽃 핀 복숭</a></h2>
+                        <h3><a href="#">8,000 원</a></h3>
+                        <p>#호불호 없는 복숭아 맛<br>#봄 향기가 나는 벚꽃향</p>
+                        <img src="images/bag.png" alt="bag" class="bag bag_position">
+                        <img src="images/icon_best.png" alt="png" class="icon_best">
+                    </li>
+                    <li>
+                        <h6 class="item front"><a href="#"><img src="images/box2.png" alt="box1"></a></h6>
+                        <h6 class="item back"><a href="#"><img src="images/stick2.png" alt="stick1"></a></h6>
+                        <h2><a href="#">민트잎 라임</a></h2>
+                        <h3><a href="#">8,000 원</a></h3>
+                        <p>#상큼하고 새콤한 라임 맛<br>#시원한 목넘김의 민트잎을 가득담은 향</p>
+                        <img src="images/bag.png" alt="bag" class="bag bag_position">
+                        <img src="images/icon_best.png" alt="png" class="icon_best">
+                    </li>
+                    <li>
+                        <h6 class="item front"><a href="#"><img src="images/box3.png" alt="box1"></a></h6>
+                        <h6 class="item back"><a href="#"><img src="images/stick3.png" alt="stick1"></a></h6>
+                        <h2><a href="#">국화 핀 감귤</a></h2>
+                        <h3><a href="#">8,000 원</a></h3>
+                        <p>#새콤달콤 제주의 감귤 맛<br>#입안을 감싸는 산미의 국화꽃</p>
+                        <img src="images/bag.png" alt="bag" class="bag bag_position">
+                    </li>
+                    <li>
+                        <h6 class="item front"><a href="#"><img src="images/box4.png" alt="box1"></a></h6>
+                        <h6 class="item back"><a href="#"><img src="images/stick4.png" alt="stick1"></a></h6>
+                        <h2><a href="#">장미 핀 딸기</a></h2>
+                        <h3><a href="#">8,000 원</a></h3>
+                        <p>##새빨간 달달함의 딸기<br>#아름다운 붉은 장미의 새콤 쌉쌀함</p>
+                        <img src="images/bag.png" alt="bag" class="bag bag_position">
+                    </li>
+                    <li>
+                        <h6 class="item front"><a href="#"><img src="images/box5.png" alt="box1"></a></h6>
+                        <h6 class="item back"><a href="#"><img src="images/stick5.png" alt="stick1"></a></h6>
+                        <h2><a href="#">열대야 망고</a></h2>
+                        <h3><a href="#">9,500 원</a></h3>
+                        <p>#여름한정!<br>#열대야가 펼쳐지는 부드러운 망고</p>
+                        <img src="images/bag.png" alt="bag" class="bag bag_position2">
+                        <img src="images/summer.png" alt="summer" class="summer">
+                    </li>
+                    <li>
+                        <h6 class="item front"><a href="#"><img src="images/box6.png" alt="box1"></a></h6>
+                        <h6 class="item back"><a href="#"><img src="images/stick6.png" alt="stick1"></a></h6>
+                        <h2><a href="#">푸른바다 파인</a></h2>
+                        <h3><a href="#">9,500 원</a></h3>
+                        <p>#여름한정!<br>#푸른바다 앞 바캉스를 즐기며 마시는 파인</p>
+                        <img src="images/bag.png" alt="bag" class="bag bag_position2">
+                        <img src="images/summer.png" alt="summer" class="summer">
+                    </li>
+                </ul>
+            </div>
+
+
+            <h4>기타용품</h4>
+            <div class="product_inner">
+                <ul class="inner_wrap">
+                    <li>
+                        <h6 class="scale"><a href="#"><img src="images/etc1.png" alt="etc1"></a></h6>
+                        <h2><a href="#">복숭아 가니쉬</a></h2>
+                        <h3><a href="#">3,000 원</a></h3>
+                        <p>#동결건조 #편리한 보관<br>
+                            #가미와 함께하면 더욱 맛있게!</p>
+                        <img src="images/bag.png" alt="bag" class="bag bag_position">
+                    </li>
+                    <li>
+                        <h6 class="scale"><a href="#"><img src="images/etc2.png" alt="etc2"></a></h6>
+                        <h2><a href="#">라임 가니쉬</a></h2>
+                        <h3><a href="#">3,000 원</a></h3>
+                        <p>#동결건조 #편리한 보관<br>
+                            #가미와 함께하면 더욱 맛있게!</p>
+                        <img src="images/bag.png" alt="bag" class="bag bag_position">
+                    </li>
+                    <li>
+                        <h6 class="scale"><a href="#"><img src="images/etc3.png" alt="etc3"></a></h6>
+                        <h2><a href="#">감귤 가니쉬</a></h2>
+                        <h3><a href="#">3,000 원</a></h3>
+                        <p>#동결건조 #편리한 보관<br>
+                            #가미와 함께하면 더욱 맛있게!</p>
+                        <img src="images/bag.png" alt="bag" class="bag bag_position">
+                    </li>
+                    <li>
+                        <h6 class="scale"><a href="#"><img src="images/etc4.png" alt="etc4"></a></h6>
+                        <h2><a href="#">딸기 가니쉬</a></h2>
+                        <h3><a href="#">3,000 원</a></h3>
+                        <p>#동결건조 #편리한 보관<br>
+                            #가미와 함께하면 더욱 맛있게!</p>
+                        <img src="images/bag.png" alt="bag" class="bag bag_position">
+                    </li>
+                </ul>
+
+                <ul class="inner_wrap wrap_top">
+                    <li>
+                        <h6 class="scale"><a href="#"><img src="images/etc5.png" alt="etc5"></a></h6>
+                        <h2><a href="#">벚꽃 가니쉬</a></h2>
+                        <h3><a href="#">2,000 원</a></h3>
+                        <p>#2% 부족함을 채워주는 완성도<br>
+                            #가미의 아름다움을 더하는 필수 요소!<br>
+                            <img src="images/bag.png" alt="bag" class="bag bag_position">
+                    </li>
+                    <li>
+                        <h6 class="scale"><a href="#"><img src="images/etc6.png" alt="etc6"></a></h6>
+                        <h2><a href="#">민트 잎 가니쉬</a></h2>
+                        <h3><a href="#">2,000 원</a></h3>
+                        <p>#2% 부족함을 채워주는 완성도<br>
+                            #가미의 아름다움을 더하는 필수 요소!</p>
+                        <img src="images/bag.png" alt="bag" class="bag bag_position">
+                    </li>
+                    <li>
+                        <h6 class="scale"><a href="#"><img src="images/etc7.png" alt="etc7"></a></h6>
+                        <h2><a href="#">국화 가니쉬</a></h2>
+                        <h3><a href="#">2,000 원</a></h3>
+                        <p>#2% 부족함을 채워주는 완성도<br>
+                            #가미의 아름다움을 더하는 필수 요소!</p>
+                        <img src="images/bag.png" alt="bag" class="bag bag_position">
+                    </li>
+                    <li>
+                        <h6 class="scale"><a href="#"><img src="images/etc8.png" alt="etc8"></a></h6>
+                        <h2><a href="#">장미 잎 가니쉬</a></h2>
+                        <h3><a href="#">2,000 원</a></h3>
+                        <p>#2% 부족함을 채워주는 완성도<br>
+                            #가미의 아름다움을 더하는 필수 요소!</p>
+                        <img src="images/bag.png" alt="bag" class="bag bag_position">
+                    </li>
+                </ul>
+            </div>
+            <h4>패키지</h4>
+            <div class="product_inner">
+                <ul class="inner_wrap">
+                    <li>
+                        <h6 class="scale"><a href="#"><img src="images/package.png" alt="package"></a></h6>
+                        <h2><a href="#">가미 패키지</a></h2>
+                        <h3><a href="#"><span>13,000 원</span> &nbsp; &nbsp;11,000 원</a></h3>
+                        <p>#가미 블렌드와 가니쉬를 모두 담아<br>
+                            #완벽한 한잔을 만들기 위한 패키지!</p>
+                        <img src="images/bag.png" alt="bag" class="bag bag_position">
+                    </li>
+                </ul>
+            </div>
+        </div><!--tab_content-->
+    </div><!--tab_container-->
+
+
+    <div id="tab2" class="tab_content">
+        <h4>블렌드</h4>
+        <div class="product_inner">
+            <ul class="inner_wrap">
+                <li>
+                    <h6 class="item front"><a href="#"><img src="images/box1.png" alt="box1"></a></h6>
+                    <h6 class="item back"><a href="#"><img src="images/stick1.png" alt="stick1"></a></h6>
+                    <h2><a href="#">벚꽃 핀 복숭</a></h2>
+                    <h3><a href="#">8,000 원</a></h3>
+                    <p>#호불호 없는 복숭아 맛<br>#봄 향기가 나는 벚꽃향</p>
+                    <img src="images/bag.png" alt="bag" class="bag bag_position">
+                    <img src="images/icon_best.png" alt="png" class="icon_best">
+                </li>
+                <li>
+                    <h6 class="item front"><a href="#"><img src="images/box2.png" alt="box1"></a></h6>
+                    <h6 class="item back"><a href="#"><img src="images/stick2.png" alt="stick1"></a></h6>
+                    <h2><a href="#">민트잎 라임</a></h2>
+                    <h3><a href="#">8,000 원</a></h3>
+                    <p>#상큼하고 새콤한 라임 맛<br>#시원한 목넘김의 민트잎을 가득담은 향</p>
+                    <img src="images/bag.png" alt="bag" class="bag bag_position">
+                    <img src="images/icon_best.png" alt="png" class="icon_best">
+                </li>
+                <li>
+                    <h6 class="item front"><a href="#"><img src="images/box3.png" alt="box1"></a></h6>
+                    <h6 class="item back"><a href="#"><img src="images/stick3.png" alt="stick1"></a></h6>
+                    <h2><a href="#">국화 핀 감귤</a></h2>
+                    <h3><a href="#">8,000 원</a></h3>
+                    <p>#새콤달콤 제주의 감귤 맛<br>#입안을 감싸는 산미의 국화꽃</p>
+                    <img src="images/bag.png" alt="bag" class="bag bag_position">
+                </li>
+                <li>
+                    <h6 class="item front"><a href="#"><img src="images/box4.png" alt="box1"></a></h6>
+                    <h6 class="item back"><a href="#"><img src="images/stick4.png" alt="stick1"></a></h6>
+                    <h2><a href="#">장미 핀 딸기</a></h2>
+                    <h3><a href="#">8,000 원</a></h3>
+                    <p>##새빨간 달달함의 딸기<br>#아름다운 붉은 장미의 새콤 쌉쌀함</p>
+                    <img src="images/bag.png" alt="bag" class="bag bag_position">
+                </li>
+                <li>
+                    <h6 class="item front"><a href="#"><img src="images/box5.png" alt="box1"></a></h6>
+                    <h6 class="item back"><a href="#"><img src="images/stick5.png" alt="stick1"></a></h6>
+                    <h2><a href="#">열대야 망고</a></h2>
+                    <h3><a href="#">9,500 원</a></h3>
+                    <p>#여름한정!<br>#열대야가 펼쳐지는 부드러운 망고</p>
+                    <img src="images/bag.png" alt="bag" class="bag bag_position2">
+                    <img src="images/summer.png" alt="summer" class="summer">
+                </li>
+                <li>
+                    <h6 class="item front"><a href="#"><img src="images/box6.png" alt="box1"></a></h6>
+                    <h6 class="item back"><a href="#"><img src="images/stick6.png" alt="stick1"></a></h6>
+                    <h2><a href="#">푸른바다 파인</a></h2>
+                    <h3><a href="#">9,500 원</a></h3>
+                    <p>#여름한정!<br>#푸른바다 앞 바캉스를 즐기며 마시는 파인</p>
+                    <img src="images/bag.png" alt="bag" class="bag bag_position2">
+                    <img src="images/summer.png" alt="summer" class="summer">
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="tab3" class="tab_content">
+        <h4>기타용품</h4>
+        <div class="product_inner">
+            <ul class="inner_wrap">
+                <li>
+                    <h6 class="scale"><a href="#"><img src="images/etc1.png" alt="etc1"></a></h6>
+                    <h2><a href="#">복숭아 가니쉬</a></h2>
+                    <h3><a href="#">3,000 원</a></h3>
+                    <p>#동결건조 #편리한 보관<br>
+                        #가미와 함께하면 더욱 맛있게!</p>
+                    <img src="images/bag.png" alt="bag" class="bag bag_position">
+                </li>
+                <li>
+                    <h6 class="scale"><a href="#"><img src="images/etc2.png" alt="etc2"></a></h6>
+                    <h2><a href="#">라임 가니쉬</a></h2>
+                    <h3><a href="#">3,000 원</a></h3>
+                    <p>#동결건조 #편리한 보관<br>
+                        #가미와 함께하면 더욱 맛있게!</p>
+                    <img src="images/bag.png" alt="bag" class="bag bag_position">
+                </li>
+                <li>
+                    <h6 class="scale"><a href="#"><img src="images/etc3.png" alt="etc3"></a></h6>
+                    <h2><a href="#">감귤 가니쉬</a></h2>
+                    <h3><a href="#">3,000 원</a></h3>
+                    <p>#동결건조 #편리한 보관<br>
+                        #가미와 함께하면 더욱 맛있게!</p>
+                    <img src="images/bag.png" alt="bag" class="bag bag_position">
+                </li>
+                <li>
+                    <h6 class="scale"><a href="#"><img src="images/etc4.png" alt="etc4"></a></h6>
+                    <h2><a href="#">딸기 가니쉬</a></h2>
+                    <h3><a href="#">3,000 원</a></h3>
+                    <p>#동결건조 #편리한 보관<br>
+                        #가미와 함께하면 더욱 맛있게!</p>
+                    <img src="images/bag.png" alt="bag" class="bag bag_position">
+                </li>
+            </ul>
+
+            <ul class="inner_wrap wrap_top">
+                <li>
+                    <h6 class="scale"><a href="#"><img src="images/etc5.png" alt="etc5"></a></h6>
+                    <h2><a href="#">벚꽃 가니쉬</a></h2>
+                    <h3><a href="#">2,000 원</a></h3>
+                    <p>#2% 부족함을 채워주는 완성도<br>
+                        #가미의 아름다움을 더하는 필수 요소!<br>
+                        <img src="images/bag.png" alt="bag" class="bag bag_position">
+                </li>
+                <li>
+                    <h6 class="scale"><a href="#"><img src="images/etc6.png" alt="etc6"></a></h6>
+                    <h2><a href="#">민트 잎 가니쉬</a></h2>
+                    <h3><a href="#">2,000 원</a></h3>
+                    <p>#2% 부족함을 채워주는 완성도<br>
+                        #가미의 아름다움을 더하는 필수 요소!</p>
+                    <img src="images/bag.png" alt="bag" class="bag bag_position">
+                </li>
+                <li>
+                    <h6 class="scale"><a href="#"><img src="images/etc7.png" alt="etc7"></a></h6>
+                    <h2><a href="#">국화 가니쉬</a></h2>
+                    <h3><a href="#">2,000 원</a></h3>
+                    <p>#2% 부족함을 채워주는 완성도<br>
+                        #가미의 아름다움을 더하는 필수 요소!</p>
+                    <img src="images/bag.png" alt="bag" class="bag bag_position">
+                </li>
+                <li>
+                    <h6 class="scale"><a href="#"><img src="images/etc8.png" alt="etc8"></a></h6>
+                    <h2><a href="#">장미 잎 가니쉬</a></h2>
+                    <h3><a href="#">2,000 원</a></h3>
+                    <p>#2% 부족함을 채워주는 완성도<br>
+                        #가미의 아름다움을 더하는 필수 요소!</p>
+                    <img src="images/bag.png" alt="bag" class="bag bag_position">
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="tab4" class="tab_content">
+        <h4>패키지</h4>
+        <div class="product_inner">
+            <ul class="inner_wrap">
+                <li>
+                    <h6 class="scale"><a href="#"><img src="images/package.png" alt="package"></a></h6>
+                    <h2><a href="#">가미 패키지</a></h2>
+                    <h3><a href="#"><span>13,000 원</span> &nbsp; &nbsp;11,000 원</a></h3>
+                    <p>#가미 블렌드와 가니쉬를 모두 담아<br>
+                        #완벽한 한잔을 만들기 위한 패키지!</p>
+                    <img src="images/bag.png" alt="bag" class="bag bag_position">
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="footer">
+        <div class="footer_inner">
+            <h1><a href="index.html"><img src="images/footer_logo.png" alt="footer_logo"></a></h1>
+            <ul>
+                <li>고객센터</li>
+                <li class="footer_b">000-1234-5678</li>
+                <li>운영시간 : 오전 10:00 ~ 오후 06:00</li>
+                <li>점심시간 : 오후 12:00 ~ 오후 13:00</li>
+                <li>휴 무 : 토요일, 일요일, 공휴일</li>
+            </ul>
+            <ul>
+                <li>카카오톡 채널 상담</li>
+                <li class="footer_b">Gami_Official</li>
+                <li>카카오톡 채널로 문의주시면<br>빠른 답변 받으실 수 있습니다.</li>
+
+            </ul>
+            <ul>
+                <li><a href="#" class="footer_b">회사소개</a></li>
+                <li><a href="#" class="footer_b">개인정보처리방침</a></li>
+                <li><a href="#" class="footer_b">이용약관</a></li>
+            </ul>
+            <ul class="icon">
+                <li class="icon_relative"><a href="#"><img src="images/icon_insta.png" alt="icon_insta" class="b_icon">
+                        <img src="images/icon_gra_insta.png" alt="icon_gra_insta" class="gra_icon"></a></li>
+                <li class="icon_relative"><a href="#"><img src="images/icon_facebook.png" alt="icon_facebook"
+                            class="b_icon">
+                        <img src="images/icon_gra_facebook.png" alt="icon_gra_facebook" class="gra_icon"></a>
+                </li></a>
+                </li>
+                <li class="icon_relative"><a href="#"><img src="images/icon_kakao.png" alt="icon_kakao" class="b_icon">
+                        <img src="images/icon_gra_kakao.png" alt="icon_gra_kakao" class="gra_icon"></a></li>
+                </a>
+                </li>
+            </ul>
+        </div><!--footer_inner-->
+    </div><!--footer-->
+
+    <div id="top_btn">
+
+        <a href="#header"><img src="./images/top.png" alt="top" class="top_gra"></a>
+        <a href="#header"><img src="./images/top_b.png" alt="top_b" class="top_b"></a>
+
+    </div>
+
+
+
+
+
+
+
+    <!--제이쿼리 라이브러리파일-->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <!--탭 제이쿼리-->
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            //처음들어갔을때 모습 만들기...
+            $(".tab_content").hide(); //tab_content 부분을 모두 숨김.
+            $("ul.tabs li:first").addClass("active").show(); //첫번째 탭이 active클래스를 붙이고, 보여줌.
+            $(".tab_content:first").show(); //tab_contents중 첫번째꺼를 보여줌
+
+            //On Click Event
+            $("ul.tabs li").click(function () {
+
+                $("ul.tabs li").removeClass("active"); //Remove any "active" class
+                $(this).addClass("active"); //선택한 탭에만 active클래스 붙임
+                $(".tab_content").hide(); //모든 contents들 숨김
+
+                var activeTab = $(this).find("a").attr("href"); //Find the href attribute value to identify the active tab + content
+                /*.attr( attributeName ) -> 선택한 요소의 속성의 값을 가져옵니다.
+                .find()는 어떤 요소의 하위 요소 중 특정 요소를 찾을 때 사용합니다.*/
+                $(activeTab).fadeIn(); //Fade in the active ID content(active되어있는 칸의 id 값을 가진 부분이 나타남)
+                return false;
+            });
+
+        });
+    </script>
+
+
+
+
+
+
+
+
+
+    <style>
+        .owl-carousel {
+            display: block;
+        }
+    </style>
+    <script>
+        AOS.init();
+    </script>
+
+    <script src="./js/jquery-3.6.4.min.js"></script>
+    <script>
+        $(function () {
+
+            let num = 0;
+            $(".bag").click(function () {
+                if (num == 0) {
+                    $(this).attr("src", "./images/bag2.png");
+                    num = 1;
+                } else {
+                    $(this).attr("src", "./images/bag.png");
+                    num = 0;
+                }
+            });
+        });
+
+    </script>
+
+
+</body>
+
+</html>
